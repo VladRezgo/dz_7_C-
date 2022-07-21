@@ -27,18 +27,18 @@ void PrintArray (double[,] arr )
 }
 
 Console.WriteLine("Введите размер массива");
-Console.Write("Количество строк = ");
+Console.Write("Введите количество строк = ");
 int countLines = Convert.ToInt32(Console.ReadLine());
-Console.Write("Количество столбцов = ");
+Console.Write("Введите количество столбцов = ");
 int countColumns = Convert.ToInt32(Console.ReadLine());
 
 while (countLines <= 0 | countColumns <= 0)
 {
-    Console.Write("Количество строк = ");
+    Console.Write("Введите количество строк = ");
     countLines = Convert.ToInt32(Console.ReadLine());
     Console.Write("Количество столбцов = ");
     countColumns = Convert.ToInt32(Console.ReadLine());
 }
 
-Console.WriteLine("Полученный массив");
+Console.WriteLine("Массив:");
 PrintArray(FillArray(countLines, countColumns));
