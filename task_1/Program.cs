@@ -10,10 +10,10 @@ string  SearchElement (int[,] searchArr, int x, int y)
 
 int[,] arr = new int [,] 
 {
-    {1, 4,  5,   7,  19, -23},
-    {3, 23, 5,   -7, 17, 5},
-    {5, 0,  10,  13, 7,  -6},
-    {6, 10, -13, 5,  6,  8},
+    {7, 3,  -9,   17,  23, -23,25},
+    {3, 23, 5,   -7, 17, 5, 44},
+    {23, 0,  7,  -24, 7,  -6, 79},
+    {2, 10, 1, -9,  -3,  7, -99}, 
 };
 Console.Write(" Введите номер  строки = ");
 int numLine = Convert.ToInt32(Console.ReadLine());
